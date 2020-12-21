@@ -17,7 +17,7 @@ const List = ({ items }) => {
     <div>
       <input onChange={filterItems} />
       <ul>
-        {items.map((item) => (
+        {filteredItems.map((item) => (
           <li key={item}>{item}</li>
         ))}
       </ul>
