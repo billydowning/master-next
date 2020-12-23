@@ -1,9 +1,20 @@
-html,
+`html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.title {
+  font: 15px Helvetica, Arial, sans-serif;
+  background: #eee;
+  padding: 10px;
+  transition: 100ms ease-in background;
+}
+
+.title:hover {
+  background: #ccc;
 }
 
 a {

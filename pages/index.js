@@ -17,13 +17,15 @@ const List = ({ items }) => {
 
   return (
     <div className="ui container">
-      <Head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
-        />
-      </Head>
-      <Header />
+      <div className="title">
+        <Head>
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+          />
+        </Head>
+        <Header />
+      </div>
       <h2>I'm feeling Supersonic. Give me gin and tonic!</h2>
       <input onChange={filterItems} />
       <ul>
